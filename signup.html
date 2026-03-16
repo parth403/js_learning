@@ -17,13 +17,31 @@
   </div>
 
   <div class="form-group">
-    <label>Email</label>
-    <input type="email" id="email" class="form-control" required>
+    <label for="email">Email</label>
+    <input
+      type="email"
+      id="email"
+      class="form-control"
+      placeholder="Enter email"
+      required
+    />
   </div>
 
   <div class="form-group">
     <label>Password</label>
     <input type="password" id="password" class="form-control" required>
+  </div>
+
+   <div class="form-group">
+    <label for="phone">Phone No</label>
+    <input
+      type="tel"
+      id="phone"
+      class="form-control"
+      pattern="[0-9]{10}"
+      maxlength="10"
+      required
+    />
   </div>
 
   <button type="submit" class="btn btn-success">Register</button>
